@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1524945684 source:/home/augusto/Publico/TP/TP02/main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1525535654 source:/home/augusto/Proyectos/TPs/TP02/main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525630147 /home/augusto/Proyectos/TPs/TP02/funciones.h
+
+1525632780 source:/home/augusto/Proyectos/TPs/TP02/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
