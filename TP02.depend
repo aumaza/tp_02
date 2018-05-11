@@ -12,9 +12,79 @@
 	<string.h>
 	"funciones.h"
 
-1525630147 /home/augusto/Proyectos/TPs/TP02/funciones.h
+1526003503 /home/augusto/Proyectos/TPs/TP02/funciones.h
 
-1525632780 source:/home/augusto/Proyectos/TPs/TP02/funciones.c
+1525992147 source:/home/augusto/Proyectos/TPs/TP02/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526001034 source:/home/augusto/Proyectos/TPs/TP02/menuGeneral.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525991667 source:/home/augusto/Proyectos/TPs/TP02/iniciarReg.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525991744 source:/home/augusto/Proyectos/TPs/TP02/espacioLibre.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525991810 source:/home/augusto/Proyectos/TPs/TP02/cargarPersona.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525991902 source:/home/augusto/Proyectos/TPs/TP02/mostrarPersona.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525991963 source:/home/augusto/Proyectos/TPs/TP02/ordenarAlfabetico.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525992044 source:/home/augusto/Proyectos/TPs/TP02/ordenarPorEdad.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1525995397 source:/home/augusto/Proyectos/TPs/TP02/graficarEdades.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526000577 source:/home/augusto/Proyectos/TPs/TP02/borrarPersona.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1526003435 source:/home/augusto/Proyectos/TPs/TP02/buscaDNI.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
