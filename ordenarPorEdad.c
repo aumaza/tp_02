@@ -1,3 +1,12 @@
+/**
+ * @brief Funcion Ordenar por Edad.-
+ * @param Se ordena on orden Ascendente tomando la edad.-
+ * @param Esta funcion no se utilizará en este programa, por lo cual se comentará.-
+ * @return No devuelve valor entero.-
+ */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -5,7 +14,7 @@
 #include "funciones.h"
 
 
-#define TAM 3
+#define TAM 4
 
 
 void ordenEdad (Personas per[], int cant)

@@ -1,3 +1,12 @@
+/**
+ * @brief Funcion Iniciar Registro
+ * @param Con esta funcion se inicialara cada registro en '1'.
+ * @param De esta manera sabremos que está sin usar.-
+ * @return Devuelve un valor entero.-
+ */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -6,7 +15,7 @@
 
 #define ON 0
 #define OFF 1
-#define TAM 3
+#define TAM 4
 
 int initRegPer(Personas per[],int lim)
 {
@@ -17,7 +26,8 @@ int initRegPer(Personas per[],int lim)
        for(i=0;i<lim;i++)
        {
            retorno=0;
-           per[i].est=ON;
+           per[i].est=OFF;
+           //per[i].dni=ON;
         }
    }
     return retorno;

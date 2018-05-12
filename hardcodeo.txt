@@ -1,0 +1,44 @@
+/**
+ * @brief Funcion Harcodeo.-
+ * @param Se cargaran los datos en la estructura.-
+ * @param
+ * @return No devuelve valor.-
+ */
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+#include <ctype.h>
+#include "funciones.h"
+
+#define ON 0
+#define OFF 1
+#define TAM 15
+
+void harcodeo (Personas per[], int cant)
+
+{
+
+int i;
+int id[15]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+char nombre[15][20]={"Juan","Maria","Marcos","Eber","Nicole","John","Paul","Ringo","George","Marcelo","Alfredo","Peter","Roberto","Mirtha","Guillermo"};
+int edad[15]={17,14,36,22,33,34,41,40,42,40,22,9,10,17,15};
+int dni[15]={30258963,24789632,45789369,15789963,23789456,29741852,32789654,45963147,14789365,33789741,42789369,25789158,267412369,36789741,31789852};
+int est[15]={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+
+
+for(i=0; i<cant; i++)
+{
+
+    per[i].id=id[i];
+    strcpy(per[i].nombre,nombre[i]);
+    per[i].edad = edad[i];
+    per[i].dni= dni[i];
+    per[i].est = est[i];
+
+}
+}

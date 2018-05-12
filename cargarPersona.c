@@ -1,3 +1,11 @@
+/**
+ * @brief Funcion Cargar Personas
+ * @param Recibe como primer parametro la estructura personas y la cantidad de personas que ingresara
+ * @param Realiza la iteracion recorriendo el array cargando cada dato de la estructura
+ * @return No devuelve valor, solo ingresa los registros.
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -6,13 +14,13 @@
 
 #define ON 0
 #define OFF 1
-#define TAM 3
+#define TAM 4
 
 
 void cargarPersona (Personas per[], int cant)
 {
 int i;
-espacioLibre(per,TAM);
+//espacioLibre(per,TAM);
 
 for(i=0; i<cant; i++)
 {

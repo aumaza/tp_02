@@ -1,10 +1,18 @@
+/**
+ * @brief Funcion Buscar DNI.-
+ * @param Realiza la busqueda por DNI de las personas dentro de la estructura.-
+ * @param Será utilizada por la función Borrar persona.-
+ * @return Devuelve un valor entero.-
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
 #include "funciones.h"
 
-#define TAM 3
+#define TAM 4
 
 int buscaDni (Personas per[], int dni)
 
@@ -20,8 +28,9 @@ int TAMANIO=20;
         {
             if(dni==per[i].dni)
             {
-                printf("La persona buscada es:");
-                printf("\n%d %s %d\n",per[i].dni,per[i].nombre,per[i].est);
+                printf("\nATENCION!!!---SE ELIMINARAN LOS SIGUIENTES DATOS");
+                printf("\nNOMBRE Y APELLIDO: %s", per[i].nombre);
+                printf("DNI: %d\n", per[i].dni);
                 flag=i;
                 break;
             }

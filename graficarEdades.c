@@ -1,3 +1,11 @@
+/**
+ * @brief Funcion Graficar por Rango de Edades.-
+ * @param Tomará el valor de las edades y las ordenara dentro de un rango de <18 >19 <35 y >35.-
+ * @param Se graficará de manera vertical colocando asteriscos en el bloque de rango que corresponda.-
+ * @return No devuelve un valor entero.-
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -5,7 +13,7 @@
 #include "funciones.h"
 
 
-#define TAM 3
+#define TAM 4
 
 
 
@@ -15,13 +23,13 @@ void graficarEdades (Personas per[], int cant)
 
  int i;
  int j;
- int vcont[4];
+ int vcont[TAM];
  int min=0;
  int entre=0;
  int may=0;
  int max;
 
- for(i=0;i<4;i++)
+ for(i=0;i<cant; i++)
  {
      vcont[i]=0;
  }

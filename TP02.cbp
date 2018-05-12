@@ -31,12 +31,44 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="funciones" />
-		<Unit filename="funciones.c">
+		<Unit filename="borrarPersona.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="buscaDNI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cargarPersona.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="espacioLibre.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="funciones.h" />
+		<Unit filename="graficarEdades.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="harcodeo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="iniciarReg.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuGeneral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostrarPersona.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ordenarAlfabetico.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ordenarPorEdad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pideDato.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
